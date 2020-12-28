@@ -10,8 +10,7 @@ class WebItemList extends Component {
     }
     render() {
         const {todos, onToggle, onRemove} = this.props;
-
-        //JSX라 하며 JavaScript를 확장한 문법
+/*
         const todoList = todos.map(
             (todo) => (
                 <WebItem
@@ -23,20 +22,21 @@ class WebItemList extends Component {
             )
 
         );
-
-/*        const todoList = todos.map(
-            ({id, text, checked}) => (
+*/
+        const todoList = todos.map(
+            ({id, text, checked, color}) => (
                 <WebItem 
                     id = {id}
                     text = {text}
                     checked = {checked}
+                    color = {color}
                     onToggle = {onToggle}
                     onRemove = {onRemove}
                     key = {id}
                 />
             )
         );
-*/
+
 
 
         return (

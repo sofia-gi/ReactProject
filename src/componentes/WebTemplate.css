@@ -11,15 +11,21 @@
     font-size: 2.5rem;
     text-align: center;
     font-weight: 100;
-    background: #22b8cf;;
+    background: #adb5bd;
     color: white;
+  }
+
+  .palette-wrapper {
+    padding: 1rem;
+    background: #f1f3f5;
   }
   
   .form-wrapper {
     padding: 1rem;
-    border-bottom: 1px solid #22b8cf;
+    border-bottom: 1px solid #adb5bd;
   }
   
   .todos-wrapper {
     min-height: 5rem;
   }
+
