@@ -1,9 +1,9 @@
 import { List } from 'immutable';
 import React, { Component } from 'react';
-import Form from './componentes/Form';
-import WebItemColor from './componentes/WebItemColor';
-import WebItemList from './componentes/WebItemList';
-import WebTemplate from './componentes/WebTemplate';
+import Form from './js/Form';
+import WebItemColor from './js/WebItemColor';
+import WebItemList from './js/WebItemList';
+import WebTemplate from './js/WebTemplate';
 
 
 const colors = ['#343a40', '#f03e3e', '#12b886', '#228ae6'];
